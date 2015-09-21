@@ -13,7 +13,7 @@ public class Theme extends AcceptanceTest {
 	ProcessingResult result = null;
 	
 	@Extension
-    public ThemeExtension theme = new ThemeExtension().setRemoveConcordionStyle(true).setResourceLocation(ResourceLocation.EMBEDDED);
+    public ThemeExtension theme = new ThemeExtension().setRemoveConcordionStyle(true);
 
 	public boolean testme() {
 		return true;
