@@ -1,0 +1,51 @@
+.linkedScreenshot {
+    position:relative;
+}
+
+.linkedScreenshot:before {
+	content:"i"; 
+    position:absolute;
+    width:16px;
+    height:16px;
+    left: 4px;
+    font-family: serif;
+    font-size:14px;
+    font-weight:bold;
+    font-style:italic;
+    line-height:15px;
+    text-align:center;
+    color:white;
+    background:#2385BA;
+    /* css3 */
+    -webkit-border-radius:16px;
+    -moz-border-radius:16px;
+    border-radius:16px;
+}
+
+
+// Override Default Concordion CSS 
+.breadcrumbs kbd {
+}
+
+body {
+  padding-top: 0px;
+  margin: 0px;
+}
+
+.breadcrumbs {
+  background-color: #f5f5f5;
+  border-bottom: 1px solid #e5e5e5;
+  display: block;
+  padding: 12px 32px;
+  
+  margin-left: -32px;
+  margin-right: -32px;
+  text-indent: -6px;
+}
+
+.breadcrumbs a {
+  padding-left: 6px;
+  padding-right: 6px;
+  color: #319DD8;
+  text-decoration: none;
+}
